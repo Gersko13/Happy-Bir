@@ -1730,4 +1730,77 @@ body.active-flowers {
   animation: love 3s forwards infinite 2.85s;
   transform: scale(0.5) rotate(46deg);
 }
+.bubble:nth-child(21) {
+  top: 55%;
+  left: 30%;
+  height: 15vmin;
+  width: 15vmin;
+  animation: love-burst 3s infinite 3s;
+  box-shadow: inset 0 0 0 7vmin transparent;
+  transform: translate(0, 0.3em) scale(0);
+  transform-origin: center bottom;
+}
+.bubble:nth-child(21) .heart {
+  animation: love 3s forwards infinite 3s;
+  transform: scale(0.5) rotate(-15deg);
+}
 
+.bubble:nth-child(22) {
+  top: 35%;
+  left: 70%;
+  height: 10vmin;
+  width: 10vmin;
+  animation: love-burst 3s infinite 3.15s;
+  box-shadow: inset 0 0 0 4vmin transparent;
+  transform: translate(0, 0.2em) scale(0);
+  transform-origin: center bottom;
+}
+.bubble:nth-child(22) .heart {
+  animation: love 3s forwards infinite 3.15s;
+  transform: scale(0.5) rotate(10deg);
+}
+
+.bubble:nth-child(23) {
+  top: 15%;
+  left: 40%;
+  height: 14vmin;
+  width: 14vmin;
+  animation: love-burst 3s infinite 3.3s;
+  box-shadow: inset 0 0 0 6vmin transparent;
+  transform: translate(0, 0.25em) scale(0);
+  transform-origin: center bottom;
+}
+.bubble:nth-child(23) .heart {
+  animation: love 3s forwards infinite 3.3s;
+  transform: scale(0.5) rotate(30deg);
+}
+
+.bubble:nth-child(24) {
+  top: 45%;
+  left: 90%;
+  height: 13vmin;
+  width: 13vmin;
+  animation: love-burst 3s infinite 3.45s;
+  box-shadow: inset 0 0 0 5.5vmin transparent;
+  transform: translate(0, 0.4em) scale(0);
+  transform-origin: center bottom;
+}
+.bubble:nth-child(24) .heart {
+  animation: love 3s forwards infinite 3.45s;
+  transform: scale(0.5) rotate(-25deg);
+}
+
+.bubble:nth-child(25) {
+  top: 30%;
+  left: 20%;
+  height: 16vmin;
+  width: 16vmin;
+  animation: love-burst 3s infinite 3.6s;
+  box-shadow: inset 0 0 0 7vmin transparent;
+  transform: translate(0, 0.5em) scale(0);
+  transform-origin: center bottom;
+}
+.bubble:nth-child(25) .heart {
+  animation: love 3s forwards infinite 3.6s;
+  transform: scale(0.5) rotate(5deg);
+}
